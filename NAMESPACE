@@ -1,0 +1,5 @@
+exportPattern("^[[:alpha:]]+")
+importFrom(RJSONIO, fromJSON)
+importFrom(RCurl, curlPerform, basicTextGatherer, curlEscape)
+S3method(print,fedreg_document)
+S3method(print,fedreg_agency)
